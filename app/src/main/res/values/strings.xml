@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Amazfit Internet Companion</string>
+    <string name="notif">Running in the foreground. Long press to hide</string>
+    <string name="channel_name">Foreground Service</string>
+    <string name="hide_from_app_drawer">Hide from app drawer</string>
+    <string name="hidden">Hidden, you may need to reboot</string>
+    <string name="show_in_app_drawer">Show in app drawer</string>
+    <string name="shown">Shown, you may need to reboot</string>
+    <string name="restart_service">Restart service</string>
+    <string name="done">Done</string>
+    <string name="explain">This app does not have any phone functions, it just runs in the background and provides an internet connection to compatible apps on the watch</string>
+</resources>
