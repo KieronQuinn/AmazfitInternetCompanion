@@ -8,7 +8,7 @@ Simply download the [latest release](https://github.com/KieronQuinn/AmazfitInter
 
 You can also install the app over ADB, with your PHONE plugged into your PC, NOT your watch, using:
 ```
-adb install -r AmazfitInternetCompanion-1.0.apk
+adb install -r AmazfitInternetCompanion-1.0.1.apk
 ```
 
 The app can be hidden from your app drawer, to access it again (for debugging or to restart the service if it fails), simply add it as a shortcut to your homescreen, or if you're using Android 6.0 or above, go to the app info for the app and use the settings icon there
