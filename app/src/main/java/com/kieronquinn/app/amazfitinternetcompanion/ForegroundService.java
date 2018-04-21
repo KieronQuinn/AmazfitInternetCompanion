@@ -47,7 +47,7 @@ public class ForegroundService extends Service {
         Notification notification = new NotificationCompat.Builder(this, channelId)
                 .setContentTitle(getString(R.string.app_name))
                 .setContentText(getString(R.string.notif))
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.drawable.ic_stat_watch_internet)
                 .setChannelId(channelId)
                 .build();
         notificationManager.notify(notificationId, notification);
