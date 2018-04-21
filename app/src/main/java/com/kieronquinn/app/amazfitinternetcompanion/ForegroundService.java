@@ -69,8 +69,8 @@ public class ForegroundService extends Service {
                         httpURLConnection.setInstanceFollowRedirects(dataBundle.getBoolean("followRedirects"));
                         httpURLConnection.setRequestMethod(dataBundle.getString("requestMethod"));
                         httpURLConnection.setUseCaches(dataBundle.getBoolean("useCaches"));
-                        httpURLConnection.setDoInput(true);
-                        httpURLConnection.setDoOutput(true);
+                        httpURLConnection.setDoInput(dataBundle.getBoolean("doInput"));
+                        httpURLConnection.setDoOutput(dataBundle.getBoolean("doOutput"));
                         try {
                             JSONArray headers = new JSONArray(dataBundle.getString("requestHeaders"));
                             for (int x = 0; x < headers.length(); x++) {
